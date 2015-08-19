@@ -13,8 +13,8 @@
 
 #!/bin/bash
 
-ADB="/usr/bin/adb"
-FASTBOOT="/usr/bin/fastboot"
+ADB="/usr/local/bin/adb"
+FASTBOOT="/usr/local/bin/fastboot"
 UDEV="/etc/udev/rules.d/51-android.rules"
 OS=$(uname)
 ARCH=$(uname -m)
